@@ -1,0 +1,161 @@
+/*Big Size Screens*/
+@media (min-width: 1200px)
+{
+
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	
+	.header
+	{
+		padding:15px 0;
+	}
+	
+	.headerHeight
+	{
+		height:91px;
+	}
+	
+	.header .logo
+	{
+		margin-top:0;
+		width:200px;
+	}
+	
+	.header .menuList
+	{
+		display:none;
+	}
+	
+	.header .openMenu
+	{
+		display:block;
+		margin-top:12px;
+	}
+	
+	.slider img
+	{
+		height:auto;
+		width:100%;
+	}
+	
+	.slider .slider-details
+	{
+		
+	}
+	
+	.slider .slider-details .titleSlider
+	{
+		font-size:40px;
+	}
+	
+	.slider .slider-details .desc
+	{
+		font-size:25px;
+	}
+	
+	.owl-theme .owl-controls .owl-buttons div
+	{
+		right:0
+	}
+	.owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0;
+	}
+	
+	.work .item .itemWork .details a
+	{
+		font-size:17px;
+	}
+	
+	.footer .topFooter
+	{
+		text-align:center;
+		padding-top:40px;
+	}
+	
+	.footer .topFooter .copyrights,
+	.footer .topFooter .infoFooter,
+	.footer .topFooter .socialFooter
+	{
+		float:none;
+		margin:0;
+		margin-bottom:20px;
+		display:inline-block
+	}
+	
+	.projectModal .modal-dialog
+	{
+		width:auto;
+	}
+	
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.slider img
+	{
+		height:auto;
+		min-height:310px;
+		width:100%;
+	}
+	
+	.slider .slider-details
+	{
+		padding-bottom:40px;
+	}
+	
+	.slider .slider-details .titleSlider
+	{
+		font-size:30px;
+	}
+	
+	.slider .slider-details .desc
+	{
+		font-size:19px;
+	}
+	
+	.the-slider-control li span i
+	{
+		display:none;
+	}
+	
+	.services .serv:hover .titleServ
+	{
+		font-size:25px;
+		top:24px;
+	}
+	
+	.footer .topFooter .infoFooter li
+	{
+		margin-bottom:15px;
+	}
+	
+	.projectModal .modal-body
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
